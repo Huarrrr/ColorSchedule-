@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nsv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:background="@color/colorPrimary">
+
+
+            <RelativeLayout
+                android:id="@+id/rl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                tools:ignore="UselessParent"
+                tools:layout_height="300dp">
+
+                <TextView
+                    android:id="@+id/tv_remind_remind"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_above="@id/tv_remind_name"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="MissingPrefix"
+                    tools:text="下节课" />
+
+                <TextView
+                    android:id="@+id/tv_remind_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_above="@id/tv_remind_location"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="MissingPrefix"
+                    tools:text="数据库原理与应用" />
+
+                <TextView
+                    android:id="@+id/tv_remind_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_above="@id/tv_remind_time"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="35sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="MissingPrefix"
+                    tools:text="A301" />
+
+                <TextView
+                    android:id="@+id/tv_remind_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="80sp"
+                    app:autoSizeTextType="uniform"
+                    tools:ignore="MissingPrefix"
+                    tools:text="距离上课还有14分钟" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll"
+            android:nestedScrollingEnabled="false" />
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
