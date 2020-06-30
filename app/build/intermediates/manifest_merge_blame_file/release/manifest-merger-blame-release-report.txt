@@ -1,0 +1,350 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="top.huar.schedule"
+4    android:versionCode="1"
+5    android:versionName="v1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:6:5-79
+11-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:7:5-81
+12-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:8:5-75
+13-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:8:22-72
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:9:5-81
+14-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:10:5-80
+15-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:10:22-77
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:11:5-66
+16-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:11:22-63
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:12:5-79
+17-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:13:5-76
+18-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:13:22-73
+19    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+19-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:14:5-85
+19-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:14:22-82
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:15:5-68
+20-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:15:22-65
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:16:5-77
+21-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:16:22-74
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:17:5-67
+22-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:17:22-64
+23    <uses-permission android:name="android.permission.READ_LOGS" />
+23-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:18:5-68
+23-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:18:22-65
+24    <uses-permission android:name="com.heytap.wearable.oms.permission.TRACSPORT" />
+24-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:19:5-84
+24-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:19:22-81
+25    <uses-permission android:name="android.permission.READ_LOGS" />
+25-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:18:5-68
+25-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:18:22-65
+26
+27    <uses-feature
+27-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:25:5-27:36
+28        android:name="android.hardware.location"
+28-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:26:9-49
+29        android:required="false" />
+29-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:27:9-33
+30    <uses-feature
+30-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:28:5-30:36
+31        android:name="android.hardware.location.gps"
+31-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:29:9-53
+32        android:required="false" />
+32-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:30:9-33
+33    <uses-feature
+33-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:31:5-33:36
+34        android:name="android.hardware.location.network"
+34-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:32:9-57
+35        android:required="false" />
+35-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:33:9-33
+36    <uses-feature
+36-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:34:5-36:36
+37        android:name="android.hardware.wifi"
+37-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:35:9-45
+38        android:required="false" />
+38-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:36:9-33
+39    <uses-feature android:name="android.hardware.screen.portrait" />
+39-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:37:5-69
+39-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:37:19-66
+40
+41    <!-- 对端的签名MD5 -->
+42    <meta-data
+42-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:40:5-42:60
+43        android:name="targetSignature"
+43-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:41:9-39
+44        android:value="8ddb342f2da5408402d7568af21e2xxx" />
+44-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:42:9-57
+45    <!-- 对端的包名 -->
+46    <meta-data
+46-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:44:5-46:47
+47        android:name="targetPackage"
+47-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:45:9-37
+48        android:value="com.huar.classtable" />
+48-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:46:9-44
+49
+50    <application
+50-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:48:5-160:19
+51        android:name="top.huar.schedule.common.App"
+51-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:49:9-52
+52        android:allowBackup="true"
+52-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:50:9-35
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\c0d40f7bbc61cf72bf2c30708f984d4f\core-1.2.0\AndroidManifest.xml:24:18-86
+54        android:icon="@mipmap/logo_img"
+54-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:51:9-40
+55        android:label="@string/app_name"
+55-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:52:9-41
+56        android:networkSecurityConfig="@xml/network_security_config"
+56-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:53:9-69
+57        android:roundIcon="@mipmap/logo_img"
+57-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:54:9-45
+58        android:screenOrientation="portrait"
+58-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:55:9-45
+59        android:supportsRtl="true"
+59-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:56:9-35
+60        android:theme="@style/AppTheme" >
+60-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:57:9-40
+61        <activity
+61-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:58:9-61:59
+62            android:name="top.huar.schedule.ui.activity.MainActivity"
+62-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:59:13-70
+63            android:screenOrientation="portrait"
+63-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:60:13-49
+64            android:theme="@style/AppTheme.NoActionBar" />
+64-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:61:13-56
+65        <activity
+65-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:62:9-71:20
+66            android:name="top.huar.schedule.ui.activity.SplashActivity"
+66-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:63:13-72
+67            android:screenOrientation="portrait"
+67-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:64:13-49
+68            android:theme="@style/AppTheme.FullScreen" >
+68-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:65:13-55
+69            <intent-filter>
+69-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:66:13-70:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:67:17-69
+70-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:67:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:69:17-77
+72-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:69:27-74
+73            </intent-filter>
+74        </activity>
+75        <activity
+75-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:72:9-82:20
+76            android:name="top.huar.schedule.ui.activity.LoginActivity"
+76-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:73:13-71
+77            android:label="@string/login_name"
+77-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:74:13-47
+78            android:screenOrientation="portrait"
+78-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:75:13-49
+79            android:theme="@style/AppTheme.NoActionBar" >
+79-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:76:13-56
+80            <intent-filter>
+80-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:77:13-81:29
+81                <action android:name="top.itning.yunshuclassschedule.LOGIN" />
+81-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:78:17-79
+81-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:78:25-76
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:80:17-76
+83-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:80:27-73
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:83:9-85:52
+87            android:name="top.huar.schedule.ui.activity.SettingActivity"
+87-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:84:13-73
+88            android:screenOrientation="portrait" />
+88-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:85:13-49
+89        <activity
+89-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:86:9-94:20
+90            android:name="top.huar.schedule.ui.activity.AboutActivity"
+90-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:87:13-71
+91            android:screenOrientation="portrait" >
+91-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:88:13-49
+92            <intent-filter>
+92-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:89:13-93:29
+93                <action android:name="top.itning.yunshuclassschedule.ABOUT" />
+93-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:90:17-79
+93-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:90:25-76
+94
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:80:17-76
+95-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:80:27-73
+96            </intent-filter>
+97        </activity>
+98        <activity
+98-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:95:9-103:20
+99            android:name="top.huar.schedule.ui.activity.CustomActivity"
+99-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:96:13-72
+100            android:screenOrientation="portrait" >
+100-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:97:13-49
+101            <intent-filter>
+101-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:98:13-102:29
+102                <action android:name="top.itning.yunshuclassschedule.CUSTOM" />
+102-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:99:17-80
+102-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:99:25-77
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:80:17-76
+104-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:80:27-73
+105            </intent-filter>
+106        </activity>
+107        <activity
+107-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:104:9-112:20
+108            android:name="top.huar.schedule.ui.activity.ShareActivity"
+108-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:105:13-71
+109            android:screenOrientation="portrait" >
+109-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:106:13-49
+110            <intent-filter>
+110-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:107:13-111:29
+111                <action android:name="top.itning.yunshuclassschedule.SHARE" />
+111-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:108:17-79
+111-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:108:25-76
+112
+113                <category android:name="android.intent.category.DEFAULT" />
+113-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:80:17-76
+113-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:80:27-73
+114            </intent-filter>
+115        </activity>
+116
+117        <service
+117-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:114:9-117:40
+118            android:name="top.huar.schedule.service.CommonService"
+118-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:115:13-67
+119            android:enabled="true"
+119-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:116:13-35
+120            android:exported="false" />
+120-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:117:13-37
+121        <service
+121-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:118:9-121:40
+122            android:name="top.huar.schedule.service.RemindService"
+122-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:119:13-67
+123            android:enabled="true"
+123-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:120:13-35
+124            android:exported="false" />
+124-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:121:13-37
+125        <service
+125-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:122:9-125:40
+126            android:name="top.huar.schedule.service.CourseInfoService"
+126-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:123:13-71
+127            android:enabled="true"
+127-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:124:13-35
+128            android:exported="false" />
+128-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:125:13-37
+129        <service
+129-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:126:9-130:72
+130            android:name="top.huar.schedule.service.JobSchedulerService"
+130-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:127:13-73
+131            android:enabled="true"
+131-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:128:13-35
+132            android:exported="false"
+132-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:129:13-37
+133            android:permission="android.permission.BIND_JOB_SERVICE" />
+133-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:130:13-69
+134        <service
+134-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:131:9-135:72
+135            android:name="top.huar.schedule.ui.widget.TodayRemoteViewsService"
+135-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:132:13-79
+136            android:enabled="true"
+136-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:133:13-35
+137            android:exported="false"
+137-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:134:13-37
+138            android:permission="android.permission.BIND_REMOTEVIEWS" />
+138-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:135:13-69
+139        <service
+139-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:136:9-139:40
+140            android:name="top.huar.schedule.service.TodayWidgetService"
+140-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:137:13-72
+141            android:enabled="true"
+141-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:138:13-35
+142            android:exported="false" />
+142-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:139:13-37
+143
+144        <receiver android:name="top.huar.schedule.receiver.RemindReceiver" />
+144-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:141:9-78
+144-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:141:19-75
+145        <receiver android:name="top.huar.schedule.ui.widget.TodayWidgetProvider" >
+145-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:142:9-149:20
+145-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:142:19-81
+146            <meta-data
+146-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:143:13-145:69
+147                android:name="android.appwidget.provider"
+147-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:144:17-58
+148                android:resource="@xml/widget_provider_today_4_2" />
+148-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:145:17-66
+149
+150            <intent-filter>
+150-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:146:13-148:29
+151                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+151-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:147:17-84
+151-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:147:25-81
+152            </intent-filter>
+153        </receiver>
+154
+155        <provider
+155-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:151:9-159:20
+156            android:name="androidx.core.content.FileProvider"
+156-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:152:13-62
+157            android:authorities="top.huar.schedule.fileProvider"
+157-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:153:13-65
+158            android:exported="false"
+158-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:154:13-37
+159            android:grantUriPermissions="true" >
+159-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:155:13-47
+160            <meta-data
+160-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:156:13-158:54
+161                android:name="android.support.FILE_PROVIDER_PATHS"
+161-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:157:17-67
+162                android:resource="@xml/file_paths" />
+162-->D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:158:17-51
+163        </provider>
+164
+165        <activity android:name="com.zhihu.matisse.ui.MatisseActivity" />
+165-->[com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:28:9-73
+165-->[com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:28:19-70
+166        <activity android:name="com.zhihu.matisse.internal.ui.AlbumPreviewActivity" />
+166-->[com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:29:9-87
+166-->[com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:29:19-84
+167        <activity android:name="com.zhihu.matisse.internal.ui.SelectedPreviewActivity" />
+167-->[com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:30:9-90
+167-->[com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:30:19-87
+168        <activity
+168-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:12:9-14:49
+169            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
+169-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:13:13-89
+170            android:process=":error_activity" />
+170-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:14:13-46
+171
+172        <provider
+172-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:16:9-20:39
+173            android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"
+173-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:17:13-85
+174            android:authorities="top.huar.schedule.customactivityoncrashinitprovider"
+174-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:18:13-85
+175            android:exported="false"
+175-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:19:13-37
+176            android:initOrder="101" />
+176-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:20:13-36
+177    </application>
+178
+179</manifest>

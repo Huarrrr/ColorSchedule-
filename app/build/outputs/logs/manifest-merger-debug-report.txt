@@ -1,0 +1,572 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:2:1-162:12
+INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:2:1-162:12
+INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:2:1-162:12
+INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:2:1-162:12
+MERGED from [WearSDK-v0.0.9.aar] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c48663b672ccc776b9f0b36a76715ac\jetified-WearSDK-v0.0.9\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jaeger.statusbarutil:library:1.5.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\aaac3b42c76b2fd295154c5932295d46\jetified-library-1.5.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.kizitonwose.colorpreference:support:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0cb224e76558f195f9a835a6cff22610\jetified-support-1.1.0\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2fdd70bf700234685fb440dda6a1d48e\preference-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta7] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0168b1e24eae9c9b7e9e4717a2e68958\constraintlayout-2.0.0-beta7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:17:1-33:12
+MERGED from [com.wdullaer:materialdatetimepicker:4.2.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\AndroidManifest.xml:17:1-30:12
+MERGED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:2:1-23:12
+MERGED from [cn.wolfspider:autowraplinelayout:1.0.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\dd5fcab36fad96f5694b155330efaeac\jetified-autowraplinelayout-1.0.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.Jay-Goo:RangeSeekBar:2.0.6] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a97697458457358ff1684b62bdc9ff0b\jetified-RangeSeekBar-2.0.6\AndroidManifest.xml:2:1-17:12
+MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.12.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\d18db7abcf0f47d7366bdb3a1f69ff6f\jetified-taptargetview-1.12.0\AndroidManifest.xml:2:1-8:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\8c714a5797db4e38f8c346d66391f097\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2be218aa51c6f8b3643189aec151d74b\gridlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ea50ff75c9db614af5b2047ba7594ef3\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\1bbd00472a64f0d66e5b5c428eb6e38c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\7f6fc1667f95dc7073b69447f9cd48ef\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ddb337209abb733d8b7a5504935a8ba9\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\8baf775528b1fa6f5765dd42931c99df\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\f8b920a39eb97dbda66e03b0d210c257\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\3e132ae803ff9e2ba2a1b7ecf881ec42\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\218a2b690b386acbb0e9a55875f4a4c5\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\304aadf62a161d0d1245014bb72057fe\jetified-glide-4.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\606b471a92a015cc4a0189c161d77d0a\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\9b48c7a18d0bda6e30e18baa4e014fa0\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\aff3c03abfbedd490a7c0760b1807f93\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\500bd3c77862afbb5a37231158c83917\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\f1541a2d5709cd72fff5a49dbc98f501\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\6ca316bf26b7a44eaff8261b11f23922\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0bbceeff002d64aa055718d77cc2e830\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0cfab9715774d9ca48a6cf5223ecbe2a\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\7ea37435eaae4b9d0a32bb14f01ee48a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\abdfdc5589339b2c05cc26a275446301\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a7af741483c0c8c8db1fabca914fcd7b\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\913c86af676a32d3ad4c056abeed417b\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\adbc3861417de197e0c890edcd46b50d\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ace5fa121de247b1fdfe8fad335887db\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\c0d40f7bbc61cf72bf2c30708f984d4f\core-1.2.0\AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.kizitonwose.colorpreference:core:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\f97b2212536733db277c4f47cd5f777e\jetified-core-1.1.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ef1269f3683521da03d997dce788f811\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\b144ccad369b8beee126f0d9ce8b6568\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\dcdc4340e62157674b0c6226143c50b1\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\9094ea7fc6954ba11fc37f319e84f7d5\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\7fdf031148c3a1000138fe3dbc5dae3b\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\17fddfefec2956819d3bfbb7b2df74e1\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\3a2e30c2cebd892544ed4b2969785bdf\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\fb7aedcd1331b4fc66e908fd39f31b92\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\4dc129e2b1fba8c14e97a8cf214f337c\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\e2a96d870cd427de0ae05424ac32aef4\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\6f853374155f24717891b5792064d87d\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ab47dfdea7ff231e67a5c748b93427bc\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\49300d24cec7fedc1017ee046a1defbd\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.tencent.bugly:crashreport:3.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\abd25ca2420a073e32747ff09d39c880\jetified-crashreport-3.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\98949f8b133f0d57b3df2716a290b381\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\673bc87f338758fa1fff90076c058977\jetified-library-1.0.4\AndroidManifest.xml:1:106-7:12
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0a9a4d3153645dfa4d42e5ab8e0dfe70\jetified-library-1.0.2\AndroidManifest.xml:1:116-8:12
+INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:2:1-162:12
+INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:2:1-162:12
+INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:2:1-162:12
+	package
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:4:5-32
+		INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+		INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:2:1-162:12
+		INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:2:1-162:12
+		INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:9:5-81
+MERGED from [com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:24:5-81
+MERGED from [com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:10:5-80
+MERGED from [com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:25:5-80
+MERGED from [com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:11:5-66
+MERGED from [com.wdullaer:materialdatetimepicker:4.2.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\AndroidManifest.xml:26:5-66
+MERGED from [com.wdullaer:materialdatetimepicker:4.2.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:11:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:14:5-85
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:14:22-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:16:5-77
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:16:22-74
+uses-permission#android.permission.INTERNET
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:17:22-64
+uses-permission#android.permission.READ_LOGS
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:18:5-68
+	tools:ignore
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:23:9-44
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:18:22-65
+uses-permission#com.heytap.wearable.oms.permission.TRACSPORT
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:19:5-84
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:19:22-81
+uses-feature#android.hardware.location
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:26:9-49
+uses-feature#android.hardware.location.gps
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.location.network
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:31:5-33:36
+	android:required
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:33:9-33
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:32:9-57
+uses-feature#android.hardware.wifi
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:34:5-36:36
+	android:required
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:36:9-33
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:35:9-45
+uses-feature#android.hardware.screen.portrait
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:37:5-69
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:37:19-66
+meta-data#targetSignature
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:40:5-42:60
+	android:value
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:42:9-57
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:41:9-39
+meta-data#targetPackage
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:44:5-46:47
+	android:value
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:46:9-44
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:45:9-37
+application
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:48:5-160:19
+MERGED from [com.jaeger.statusbarutil:library:1.5.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\aaac3b42c76b2fd295154c5932295d46\jetified-library-1.5.1\AndroidManifest.xml:11:5-20
+MERGED from [com.jaeger.statusbarutil:library:1.5.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\aaac3b42c76b2fd295154c5932295d46\jetified-library-1.5.1\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\AndroidManifest.xml:22:5-20
+MERGED from [com.github.kizitonwose.colorpreference:support:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0cb224e76558f195f9a835a6cff22610\jetified-support-1.1.0\AndroidManifest.xml:11:5-20
+MERGED from [com.github.kizitonwose.colorpreference:support:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0cb224e76558f195f9a835a6cff22610\jetified-support-1.1.0\AndroidManifest.xml:11:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta7] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0168b1e24eae9c9b7e9e4717a2e68958\constraintlayout-2.0.0-beta7\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta7] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0168b1e24eae9c9b7e9e4717a2e68958\constraintlayout-2.0.0-beta7\AndroidManifest.xml:9:5-20
+MERGED from [com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:27:5-31:19
+MERGED from [com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:27:5-31:19
+MERGED from [com.wdullaer:materialdatetimepicker:4.2.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\AndroidManifest.xml:28:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:4.2.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\AndroidManifest.xml:28:5-20
+MERGED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:11:5-21:19
+MERGED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:11:5-21:19
+MERGED from [cn.wolfspider:autowraplinelayout:1.0.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\dd5fcab36fad96f5694b155330efaeac\jetified-autowraplinelayout-1.0.1\AndroidManifest.xml:11:5-15:19
+MERGED from [cn.wolfspider:autowraplinelayout:1.0.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\dd5fcab36fad96f5694b155330efaeac\jetified-autowraplinelayout-1.0.1\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.Jay-Goo:RangeSeekBar:2.0.6] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a97697458457358ff1684b62bdc9ff0b\jetified-RangeSeekBar-2.0.6\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.Jay-Goo:RangeSeekBar:2.0.6] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a97697458457358ff1684b62bdc9ff0b\jetified-RangeSeekBar-2.0.6\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\304aadf62a161d0d1245014bb72057fe\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\304aadf62a161d0d1245014bb72057fe\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\c0d40f7bbc61cf72bf2c30708f984d4f\core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\c0d40f7bbc61cf72bf2c30708f984d4f\core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [com.github.kizitonwose.colorpreference:core:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\f97b2212536733db277c4f47cd5f777e\jetified-core-1.1.0\AndroidManifest.xml:11:5-20
+MERGED from [com.github.kizitonwose.colorpreference:core:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\f97b2212536733db277c4f47cd5f777e\jetified-core-1.1.0\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ef1269f3683521da03d997dce788f811\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ef1269f3683521da03d997dce788f811\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\b144ccad369b8beee126f0d9ce8b6568\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\b144ccad369b8beee126f0d9ce8b6568\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\673bc87f338758fa1fff90076c058977\jetified-library-1.0.4\AndroidManifest.xml:5:5-19
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\673bc87f338758fa1fff90076c058977\jetified-library-1.0.4\AndroidManifest.xml:5:5-19
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0a9a4d3153645dfa4d42e5ab8e0dfe70\jetified-library-1.0.2\AndroidManifest.xml:5:5-6:19
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0a9a4d3153645dfa4d42e5ab8e0dfe70\jetified-library-1.0.2\AndroidManifest.xml:5:5-6:19
+	android:screenOrientation
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:55:9-45
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\c0d40f7bbc61cf72bf2c30708f984d4f\core-1.2.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:56:9-35
+	android:label
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:52:9-41
+	android:roundIcon
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:54:9-45
+	android:icon
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:51:9-40
+	android:allowBackup
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:50:9-35
+	android:theme
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:57:9-40
+	android:networkSecurityConfig
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:53:9-69
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:49:9-52
+activity#top.huar.schedule.ui.activity.MainActivity
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:58:9-61:59
+	android:screenOrientation
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:60:13-49
+	android:theme
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:61:13-56
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:59:13-70
+activity#top.huar.schedule.ui.activity.SplashActivity
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:62:9-71:20
+	android:screenOrientation
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:64:13-49
+	android:theme
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:65:13-55
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:63:13-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:66:13-70:29
+action#android.intent.action.MAIN
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:67:17-69
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:67:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:69:17-77
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:69:27-74
+activity#top.huar.schedule.ui.activity.LoginActivity
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:72:9-82:20
+	android:screenOrientation
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:75:13-49
+	android:label
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:74:13-47
+	android:theme
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:76:13-56
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:73:13-71
+intent-filter#action:name:top.itning.yunshuclassschedule.LOGIN+category:name:android.intent.category.DEFAULT
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:77:13-81:29
+action#top.itning.yunshuclassschedule.LOGIN
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:78:17-79
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:78:25-76
+category#android.intent.category.DEFAULT
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:80:17-76
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:80:27-73
+activity#top.huar.schedule.ui.activity.SettingActivity
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:83:9-85:52
+	android:screenOrientation
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:85:13-49
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:84:13-73
+activity#top.huar.schedule.ui.activity.AboutActivity
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:86:9-94:20
+	android:screenOrientation
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:87:13-71
+intent-filter#action:name:top.itning.yunshuclassschedule.ABOUT+category:name:android.intent.category.DEFAULT
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:89:13-93:29
+action#top.itning.yunshuclassschedule.ABOUT
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:90:17-79
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:90:25-76
+activity#top.huar.schedule.ui.activity.CustomActivity
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:95:9-103:20
+	android:screenOrientation
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:97:13-49
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:96:13-72
+intent-filter#action:name:top.itning.yunshuclassschedule.CUSTOM+category:name:android.intent.category.DEFAULT
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:98:13-102:29
+action#top.itning.yunshuclassschedule.CUSTOM
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:99:17-80
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:99:25-77
+activity#top.huar.schedule.ui.activity.ShareActivity
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:104:9-112:20
+	android:screenOrientation
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:106:13-49
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:105:13-71
+intent-filter#action:name:top.itning.yunshuclassschedule.SHARE+category:name:android.intent.category.DEFAULT
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:107:13-111:29
+action#top.itning.yunshuclassschedule.SHARE
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:108:17-79
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:108:25-76
+service#top.huar.schedule.service.CommonService
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:114:9-117:40
+	android:enabled
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:116:13-35
+	android:exported
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:117:13-37
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:115:13-67
+service#top.huar.schedule.service.RemindService
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:118:9-121:40
+	android:enabled
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:120:13-35
+	android:exported
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:121:13-37
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:119:13-67
+service#top.huar.schedule.service.CourseInfoService
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:122:9-125:40
+	android:enabled
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:124:13-35
+	android:exported
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:125:13-37
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:123:13-71
+service#top.huar.schedule.service.JobSchedulerService
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:126:9-130:72
+	android:enabled
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:128:13-35
+	android:exported
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:129:13-37
+	android:permission
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:130:13-69
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:127:13-73
+service#top.huar.schedule.ui.widget.TodayRemoteViewsService
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:131:9-135:72
+	android:enabled
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:133:13-35
+	android:exported
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:134:13-37
+	android:permission
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:135:13-69
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:132:13-79
+service#top.huar.schedule.service.TodayWidgetService
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:136:9-139:40
+	android:enabled
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:138:13-35
+	android:exported
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:139:13-37
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:137:13-72
+receiver#top.huar.schedule.receiver.RemindReceiver
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:141:9-78
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:141:19-75
+receiver#top.huar.schedule.ui.widget.TodayWidgetProvider
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:142:9-149:20
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:142:19-81
+meta-data#android.appwidget.provider
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:143:13-145:69
+	android:resource
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:145:17-66
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:144:17-58
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:146:13-148:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:147:17-84
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:147:25-81
+provider#androidx.core.content.FileProvider
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:151:9-159:20
+	android:grantUriPermissions
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:155:13-47
+	android:authorities
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:153:13-65
+	android:exported
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:154:13-37
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:152:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:156:13-158:54
+	android:resource
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:158:17-51
+	android:name
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml:157:17-67
+uses-sdk
+INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+MERGED from [WearSDK-v0.0.9.aar] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c48663b672ccc776b9f0b36a76715ac\jetified-WearSDK-v0.0.9\AndroidManifest.xml:7:5-9:41
+MERGED from [WearSDK-v0.0.9.aar] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c48663b672ccc776b9f0b36a76715ac\jetified-WearSDK-v0.0.9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jaeger.statusbarutil:library:1.5.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\aaac3b42c76b2fd295154c5932295d46\jetified-library-1.5.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jaeger.statusbarutil:library:1.5.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\aaac3b42c76b2fd295154c5932295d46\jetified-library-1.5.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [com.github.kizitonwose.colorpreference:support:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0cb224e76558f195f9a835a6cff22610\jetified-support-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.kizitonwose.colorpreference:support:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0cb224e76558f195f9a835a6cff22610\jetified-support-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2fdd70bf700234685fb440dda6a1d48e\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2fdd70bf700234685fb440dda6a1d48e\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta7] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0168b1e24eae9c9b7e9e4717a2e68958\constraintlayout-2.0.0-beta7\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta7] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0168b1e24eae9c9b7e9e4717a2e68958\constraintlayout-2.0.0-beta7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:20:5-22:41
+MERGED from [com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:20:5-22:41
+MERGED from [com.wdullaer:materialdatetimepicker:4.2.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.wdullaer:materialdatetimepicker:4.2.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\AndroidManifest.xml:22:5-24:41
+MERGED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.wolfspider:autowraplinelayout:1.0.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\dd5fcab36fad96f5694b155330efaeac\jetified-autowraplinelayout-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.wolfspider:autowraplinelayout:1.0.1] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\dd5fcab36fad96f5694b155330efaeac\jetified-autowraplinelayout-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Jay-Goo:RangeSeekBar:2.0.6] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a97697458457358ff1684b62bdc9ff0b\jetified-RangeSeekBar-2.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Jay-Goo:RangeSeekBar:2.0.6] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a97697458457358ff1684b62bdc9ff0b\jetified-RangeSeekBar-2.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.12.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\d18db7abcf0f47d7366bdb3a1f69ff6f\jetified-taptargetview-1.12.0\AndroidManifest.xml:6:5-44
+MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.12.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\d18db7abcf0f47d7366bdb3a1f69ff6f\jetified-taptargetview-1.12.0\AndroidManifest.xml:6:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\8c714a5797db4e38f8c346d66391f097\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\8c714a5797db4e38f8c346d66391f097\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2be218aa51c6f8b3643189aec151d74b\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2be218aa51c6f8b3643189aec151d74b\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ea50ff75c9db614af5b2047ba7594ef3\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ea50ff75c9db614af5b2047ba7594ef3\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\1bbd00472a64f0d66e5b5c428eb6e38c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\1bbd00472a64f0d66e5b5c428eb6e38c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\7f6fc1667f95dc7073b69447f9cd48ef\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\7f6fc1667f95dc7073b69447f9cd48ef\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ddb337209abb733d8b7a5504935a8ba9\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ddb337209abb733d8b7a5504935a8ba9\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\8baf775528b1fa6f5765dd42931c99df\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\8baf775528b1fa6f5765dd42931c99df\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\f8b920a39eb97dbda66e03b0d210c257\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\f8b920a39eb97dbda66e03b0d210c257\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\3e132ae803ff9e2ba2a1b7ecf881ec42\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\3e132ae803ff9e2ba2a1b7ecf881ec42\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\218a2b690b386acbb0e9a55875f4a4c5\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\218a2b690b386acbb0e9a55875f4a4c5\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\304aadf62a161d0d1245014bb72057fe\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\304aadf62a161d0d1245014bb72057fe\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\606b471a92a015cc4a0189c161d77d0a\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\606b471a92a015cc4a0189c161d77d0a\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\9b48c7a18d0bda6e30e18baa4e014fa0\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\9b48c7a18d0bda6e30e18baa4e014fa0\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\aff3c03abfbedd490a7c0760b1807f93\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\aff3c03abfbedd490a7c0760b1807f93\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\500bd3c77862afbb5a37231158c83917\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\500bd3c77862afbb5a37231158c83917\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\f1541a2d5709cd72fff5a49dbc98f501\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\f1541a2d5709cd72fff5a49dbc98f501\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\6ca316bf26b7a44eaff8261b11f23922\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\6ca316bf26b7a44eaff8261b11f23922\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0bbceeff002d64aa055718d77cc2e830\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0bbceeff002d64aa055718d77cc2e830\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0cfab9715774d9ca48a6cf5223ecbe2a\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0cfab9715774d9ca48a6cf5223ecbe2a\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\7ea37435eaae4b9d0a32bb14f01ee48a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\7ea37435eaae4b9d0a32bb14f01ee48a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\abdfdc5589339b2c05cc26a275446301\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\abdfdc5589339b2c05cc26a275446301\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a7af741483c0c8c8db1fabca914fcd7b\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a7af741483c0c8c8db1fabca914fcd7b\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\913c86af676a32d3ad4c056abeed417b\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\913c86af676a32d3ad4c056abeed417b\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\adbc3861417de197e0c890edcd46b50d\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\adbc3861417de197e0c890edcd46b50d\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ace5fa121de247b1fdfe8fad335887db\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ace5fa121de247b1fdfe8fad335887db\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\c0d40f7bbc61cf72bf2c30708f984d4f\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\c0d40f7bbc61cf72bf2c30708f984d4f\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.kizitonwose.colorpreference:core:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\f97b2212536733db277c4f47cd5f777e\jetified-core-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.kizitonwose.colorpreference:core:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\f97b2212536733db277c4f47cd5f777e\jetified-core-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ef1269f3683521da03d997dce788f811\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ef1269f3683521da03d997dce788f811\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\b144ccad369b8beee126f0d9ce8b6568\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\b144ccad369b8beee126f0d9ce8b6568\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\dcdc4340e62157674b0c6226143c50b1\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\dcdc4340e62157674b0c6226143c50b1\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\9094ea7fc6954ba11fc37f319e84f7d5\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\9094ea7fc6954ba11fc37f319e84f7d5\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\7fdf031148c3a1000138fe3dbc5dae3b\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\7fdf031148c3a1000138fe3dbc5dae3b\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\17fddfefec2956819d3bfbb7b2df74e1\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\17fddfefec2956819d3bfbb7b2df74e1\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\3a2e30c2cebd892544ed4b2969785bdf\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\3a2e30c2cebd892544ed4b2969785bdf\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\fb7aedcd1331b4fc66e908fd39f31b92\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\fb7aedcd1331b4fc66e908fd39f31b92\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\4dc129e2b1fba8c14e97a8cf214f337c\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\4dc129e2b1fba8c14e97a8cf214f337c\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\e2a96d870cd427de0ae05424ac32aef4\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\e2a96d870cd427de0ae05424ac32aef4\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\6f853374155f24717891b5792064d87d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\6f853374155f24717891b5792064d87d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ab47dfdea7ff231e67a5c748b93427bc\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\ab47dfdea7ff231e67a5c748b93427bc\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\49300d24cec7fedc1017ee046a1defbd\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\49300d24cec7fedc1017ee046a1defbd\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.tencent.bugly:crashreport:3.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\abd25ca2420a073e32747ff09d39c880\jetified-crashreport-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:3.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\abd25ca2420a073e32747ff09d39c880\jetified-crashreport-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\98949f8b133f0d57b3df2716a290b381\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\98949f8b133f0d57b3df2716a290b381\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\673bc87f338758fa1fff90076c058977\jetified-library-1.0.4\AndroidManifest.xml:3:5-72
+MERGED from [it.sephiroth.android.library.imagezoom:library:1.0.4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\673bc87f338758fa1fff90076c058977\jetified-library-1.0.4\AndroidManifest.xml:3:5-72
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0a9a4d3153645dfa4d42e5ab8e0dfe70\jetified-library-1.0.2\AndroidManifest.xml:3:5-72
+MERGED from [it.sephiroth.android.library.easing:library:1.0.2] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\0a9a4d3153645dfa4d42e5ab8e0dfe70\jetified-library-1.0.2\AndroidManifest.xml:3:5-72
+INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+		INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+		ADDED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+		INJECTED from D:\oppowear\ColorSchedule-\app\src\main\AndroidManifest.xml
+activity#com.zhihu.matisse.ui.MatisseActivity
+ADDED from [com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:28:9-73
+	android:name
+		ADDED from [com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:28:19-70
+activity#com.zhihu.matisse.internal.ui.AlbumPreviewActivity
+ADDED from [com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:29:9-87
+	android:name
+		ADDED from [com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:29:19-84
+activity#com.zhihu.matisse.internal.ui.SelectedPreviewActivity
+ADDED from [com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:30:9-90
+	android:name
+		ADDED from [com.zhihu.android:matisse:0.5.2-beta4] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\AndroidManifest.xml:30:19-87
+activity#cat.ereza.customactivityoncrash.activity.DefaultErrorActivity
+ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:12:9-14:49
+	android:process
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:14:13-46
+	android:name
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:13:13-89
+provider#cat.ereza.customactivityoncrash.provider.CaocInitProvider
+ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:16:9-20:39
+	android:authorities
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:18:13-85
+	android:exported
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:19:13-37
+	android:initOrder
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from [cat.ereza:customactivityoncrash:2.2.0] C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\a85833ff61aee0e01878f0ee7a8b81c7\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:17:13-85

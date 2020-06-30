@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: cn.wolfspider:autowraplinelayout:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/dd5fcab36fad96f5694b155330efaeac/jetified-autowraplinelayout-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/dd5fcab36fad96f5694b155330efaeac/jetified-autowraplinelayout-1.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.1.1-all/caches/modules-2/files-2.1/cn.wolfspider/autowraplinelayout/1.0.1/343ddd0884067f5710901755b948ce35080912fc/autowraplinelayout-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.1.1-all/caches/modules-2/files-2.1/cn.wolfspider/autowraplinelayout/1.0.1/e91b18c76fb6248f22b64212675a523cf371a3ce/autowraplinelayout-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

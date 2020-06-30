@@ -1,0 +1,4 @@
+file=D:\oppowear\ColorSchedule-\app\build\outputs\mapping\release\mapping.txt
+sha1=a3f1b20052cbf34b9fb66718388d33645456daa6
+appId=8c802875cc
+

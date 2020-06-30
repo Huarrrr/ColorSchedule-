@@ -1,0 +1,4 @@
+#Tue Jun 30 15:46:29 CST 2020
+base.0=D\:\\oppowear\\ColorSchedule-\\app\\build\\intermediates\\dex\\release\\shrunkDex\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

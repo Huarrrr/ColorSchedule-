@@ -39,7 +39,7 @@
     <!--对端的签名MD5-->
     <meta-data
         android:name="targetSignature"
-        android:value="8ddb342f2da5408402d7568af21e2xxx" />
+        android:value="C94D6EAB7683F60F4DBA223AA666B93F" />
     <!--对端的包名-->
     <meta-data
         android:name="targetPackage"

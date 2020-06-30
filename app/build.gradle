@@ -43,6 +43,20 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    //别名: schedule
+    //创建日期: 2020-6-10
+    //条目类型: PrivateKeyEntry
+    //证书链长度: 1
+    //证书[1]:
+    //所有者: CN=Huar, OU=Huar, O=Huar, L=Huar, ST=Huar, C=H
+    //发布者: CN=Huar, OU=Huar, O=Huar, L=Huar, ST=Huar, C=H
+    //序列号: 64e71095
+    //有效期为 Wed Jun 10 15:29:58 CST 2020 至 Sun Jun 04 15:29:58 CST 2045
+    //证书指纹:
+    //         MD5:  67:79:D1:F6:C7:E1:D3:E4:22:3B:37:FE:A7:81:93:04
+    //         SHA1: 60:0C:89:0E:DC:52:3D:4E:D1:3F:39:F8:5C:31:16:DF:A3:B7:CE:5A
+    //         SHA256: FE:95:CF:D7:1D:54:FF:4A:37:32:68:CD:81:7A:FA:A9:46:D7:59:83:EC:F3:12:77:7E:BA:81:CE:52:7F:54:4F
 }
 
 dependencies {

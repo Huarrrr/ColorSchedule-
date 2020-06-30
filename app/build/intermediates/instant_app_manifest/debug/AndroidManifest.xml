@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="top.huar.schedule"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="v1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="com.heytap.wearable.oms.permission.TRACSPORT" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.screen.portrait" />
+
+    <!-- 对端的签名MD5 -->
+    <meta-data
+        android:name="targetSignature"
+        android:value="8ddb342f2da5408402d7568af21e2xxx" />
+    <!-- 对端的包名 -->
+    <meta-data
+        android:name="targetPackage"
+        android:value="com.huar.classtable" />
+
+    <application
+        android:name="top.huar.schedule.common.App"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/logo_img"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/logo_img"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="top.huar.schedule.ui.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="top.huar.schedule.ui.activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="top.huar.schedule.ui.activity.LoginActivity"
+            android:label="@string/login_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="top.itning.yunshuclassschedule.LOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="top.huar.schedule.ui.activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="top.huar.schedule.ui.activity.AboutActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="top.itning.yunshuclassschedule.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="top.huar.schedule.ui.activity.CustomActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="top.itning.yunshuclassschedule.CUSTOM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="top.huar.schedule.ui.activity.ShareActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="top.itning.yunshuclassschedule.SHARE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="top.huar.schedule.service.CommonService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="top.huar.schedule.service.RemindService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="top.huar.schedule.service.CourseInfoService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="top.huar.schedule.service.JobSchedulerService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="top.huar.schedule.ui.widget.TodayRemoteViewsService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <service
+            android:name="top.huar.schedule.service.TodayWidgetService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name="top.huar.schedule.receiver.RemindReceiver" />
+        <receiver android:name="top.huar.schedule.ui.widget.TodayWidgetProvider" >
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider_today_4_2" />
+
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="top.huar.schedule.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name="com.zhihu.matisse.ui.MatisseActivity" />
+        <activity android:name="com.zhihu.matisse.internal.ui.AlbumPreviewActivity" />
+        <activity android:name="com.zhihu.matisse.internal.ui.SelectedPreviewActivity" />
+        <activity
+            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
+            android:process=":error_activity" />
+
+        <provider
+            android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"
+            android:authorities="top.huar.schedule.customactivityoncrashinitprovider"
+            android:exported="false"
+            android:initOrder="101" />
+    </application>
+
+</manifest>

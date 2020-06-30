@@ -1,0 +1,323 @@
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:50
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:155
+-keep class androidx.core.content.FileProvider { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:168
+-keep class cat.ereza.customactivityoncrash.activity.DefaultErrorActivity { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:172
+-keep class cat.ereza.customactivityoncrash.provider.CaocInitProvider { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:166
+-keep class com.zhihu.matisse.internal.ui.AlbumPreviewActivity { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:167
+-keep class com.zhihu.matisse.internal.ui.SelectedPreviewActivity { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:165
+-keep class com.zhihu.matisse.ui.MatisseActivity { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:50
+-keep class top.huar.schedule.common.App { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:144
+-keep class top.huar.schedule.receiver.RemindReceiver { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:117
+-keep class top.huar.schedule.service.CommonService { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:125
+-keep class top.huar.schedule.service.CourseInfoService { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:129
+-keep class top.huar.schedule.service.JobSchedulerService { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:121
+-keep class top.huar.schedule.service.RemindService { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:139
+-keep class top.huar.schedule.service.TodayWidgetService { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:89
+-keep class top.huar.schedule.ui.activity.AboutActivity { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:98
+-keep class top.huar.schedule.ui.activity.CustomActivity { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:75
+-keep class top.huar.schedule.ui.activity.LoginActivity { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:61
+-keep class top.huar.schedule.ui.activity.MainActivity { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:86
+-keep class top.huar.schedule.ui.activity.SettingActivity { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:107
+-keep class top.huar.schedule.ui.activity.ShareActivity { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:65
+-keep class top.huar.schedule.ui.activity.SplashActivity { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:134
+-keep class top.huar.schedule.ui.widget.TodayRemoteViewsService { <init>(); }
+# Referenced at D:\oppowear\ColorSchedule-\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:145
+-keep class top.huar.schedule.ui.widget.TodayWidgetProvider { <init>(); }
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_alert_dialog_button_bar_material.xml:43
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_alert_dialog_title_material.xml:57
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_alert_dialog.xml:51
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_alert_dialog_actions.xml:45
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_alert_dialog_title.xml:41
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_cascading_menu_item_layout.xml:20
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_list_menu_item_layout.xml:17
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_popup_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_action_mode_bar.xml:19
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_screen_toolbar.xml:43
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_alert_dialog_material.xml:18
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_alert_dialog.xml:17
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\activity_login.xml:21
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\dialog_class_schedule.xml:94
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\fragment_check_score_login.xml:46
+-keep class androidx.appcompat.widget.AppCompatButton { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\fragment_check_score_login.xml:62
+-keep class androidx.appcompat.widget.AppCompatCheckBox { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\activity_about.xml:9
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\activity_splash.xml:9
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\activity_about.xml:24
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\activity_share.xml:11
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\dialog_class_schedule.xml:76
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\item_score_rv.xml:7
+-keep class androidx.appcompat.widget.AppCompatTextView { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_alert_dialog_button_bar_material.xml:26
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_alert_dialog_actions.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_alert_dialog_title_material.xml:45
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_alert_dialog_title.xml:36
+-keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_dialog_title_material.xml:22
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_screen_simple.xml:17
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\drawer_switch.xml:2
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2fdd70bf700234685fb440dda6a1d48e\preference-1.1.1\res\layout\preference_widget_switch_compat.xml:20
+-keep class androidx.appcompat.widget.SwitchCompat { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_screen_toolbar.xml:36
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\res\layout\activity_matisse.xml:24
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\app_bar_main.xml:15
+-keep class androidx.appcompat.widget.Toolbar { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_screen_simple.xml:25
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\activity_about.xml:37
+-keep class androidx.cardview.widget.CardView { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\activity_about.xml:2
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\activity_login.xml:2
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\activity_setting.xml:2
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\content_main.xml:2
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\dialog_class_schedule.xml:2
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\fragment_check_score.xml:2
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\fragment_check_score_login.xml:2
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\app_bar_main.xml:2
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\design_bottom_sheet_dialog.xml:26
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\01c98fe4aad7bea33904db65a44205b2\appcompat-1.1.0\res\layout\abc_alert_dialog_material.xml:41
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\activity_custom.xml:2
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\activity_share.xml:2
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\dialog_class_schedule.xml:10
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\fragment_this_week.xml:79
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\fragment_today.xml:2
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_alert_dialog.xml:40
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\preference_dialog_layout.xml:2
+-keep class androidx.core.widget.NestedScrollView { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\activity_main.xml:2
+-keep class androidx.drawerlayout.widget.DrawerLayout { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\fragment_this_week.xml:8
+-keep class androidx.gridlayout.widget.GridLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2fdd70bf700234685fb440dda6a1d48e\preference-1.1.1\res\layout\preference_widget_seekbar.xml:70
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2fdd70bf700234685fb440dda6a1d48e\preference-1.1.1\res\layout\preference_widget_seekbar_material.xml:77
+-keep class androidx.preference.UnPressableLinearLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2fdd70bf700234685fb440dda6a1d48e\preference-1.1.1\res\layout\image_frame.xml:33
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2fdd70bf700234685fb440dda6a1d48e\preference-1.1.1\res\layout\preference.xml:32
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2fdd70bf700234685fb440dda6a1d48e\preference-1.1.1\res\layout\preference_dropdown.xml:39
+-keep class androidx.preference.internal.PreferenceImageView { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\fragment_check_score_show.xml:7
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\res\layout\fragment_media_selection.xml:22
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\fragment_today.xml:86
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_calendar_horizontal.xml:29
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_calendar_months.xml:18
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2fdd70bf700234685fb440dda6a1d48e\preference-1.1.1\res\layout\preference_recyclerview.xml:18
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\fragment_class_schedule.xml:19
+-keep class androidx.viewpager.widget.ViewPager { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\dialog_class_schedule.xml:84
+-keep class cn.wolfspider.autowraplinelayout.AutoWrapLineLayout { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\app_bar_main.xml:9
+-keep class com.google.android.material.appbar.AppBarLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\test_toolbar.xml:16
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\test_toolbar_custom_background.xml:16
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\test_toolbar_elevation.xml:16
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\test_toolbar_surface.xml:16
+-keep class com.google.android.material.appbar.MaterialToolbar { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_calendar_month_navigation.xml:32
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_picker_header_fullscreen.xml:36
+-keep class com.google.android.material.button.MaterialButton { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\test_action_chip.xml:17
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\test_chip_zero_corner_radius.xml:17
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\test_reflow_chipgroup.xml:25
+-keep class com.google.android.material.chip.Chip { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\test_reflow_chipgroup.xml:19
+-keep class com.google.android.material.chip.ChipGroup { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_calendar_month.xml:18
+-keep class com.google.android.material.datepicker.MaterialCalendarGridView { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\design_bottom_navigation_item.xml:27
+-keep class com.google.android.material.internal.BaselineLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\design_text_input_end_icon.xml:18
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\design_text_input_start_icon.xml:18
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_picker_header_toggle.xml:18
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\design_navigation_item.xml:17
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\design_navigation_menu.xml:17
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\activity_main.xml:22
+-keep class com.google.android.material.navigation.NavigationView { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\design_layout_snackbar.xml:18
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_layout_snackbar.xml:18
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\design_layout_snackbar_include.xml:18
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_layout_snackbar_include.xml:18
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\fragment_class_schedule.xml:8
+-keep class com.google.android.material.tabs.TabLayout { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\dialog_class_schedule.xml:36
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\fragment_check_score_login.xml:20
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_picker_text_input_date.xml:31
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_picker_text_input_date_range.xml:32
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\dialog_class_schedule.xml:27
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\fragment_check_score_login.xml:7
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_picker_text_input_date.xml:26
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\mtrl_picker_text_input_date_range.xml:26
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\text_view_with_line_height_from_appearance.xml:17
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\text_view_with_line_height_from_layout.xml:17
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\text_view_with_line_height_from_style.xml:17
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\text_view_with_theme_line_height.xml:17
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\231227b88f80ae49e253d362afa0c433\material-1.3.0-alpha01\res\layout\text_view_without_line_height.xml:17
+-keep class com.google.android.material.textview.MaterialTextView { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\view_range.xml:16
+-keep class com.jaygoo.widget.RangeSeekBar { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\xml\preference_settings.xml:143
+-keep class com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\res\layout\mdtp_date_picker_selected_date.xml:28
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\res\layout\mdtp_date_picker_selected_date_v2.xml:42
+-keep class com.wdullaer.materialdatetimepicker.AccessibleLinearLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\res\layout\mdtp_date_picker_selected_date.xml:67
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\res\layout\mdtp_date_picker_selected_date_v2.xml:29
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\res\layout\mdtp_time_header_label.xml:53
+-keep class com.wdullaer.materialdatetimepicker.AccessibleTextView { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\res\layout-land\mdtp_date_picker_header_view_v2.xml:17
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\res\layout-land\mdtp_time_title_view_v2.xml:17
+-keep class com.wdullaer.materialdatetimepicker.VerticalTextView { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\res\layout\mdtp_date_picker_view_animator.xml:19
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\res\layout\mdtp_date_picker_view_animator_v2.xml:19
+-keep class com.wdullaer.materialdatetimepicker.date.AccessibleDateAnimator { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\res\layout\mdtp_year_label_text_view.xml:16
+-keep class com.wdullaer.materialdatetimepicker.date.TextViewWithCircularIndicator { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\res\layout\mdtp_time_picker_dialog.xml:40
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\2c80469fadcbc2601356bebfafb83144\jetified-materialdatetimepicker-4.2.1\res\layout\mdtp_time_picker_dialog_v2.xml:40
+-keep class com.wdullaer.materialdatetimepicker.time.RadialPickerLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\res\layout\activity_matisse.xml:76
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\res\layout\activity_media_preview.xml:68
+-keep class com.zhihu.matisse.internal.ui.widget.CheckRadioView { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\res\layout\activity_media_preview.xml:123
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\res\layout\media_grid_content.xml:24
+-keep class com.zhihu.matisse.internal.ui.widget.CheckView { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\res\layout\media_grid_item.xml:17
+-keep class com.zhihu.matisse.internal.ui.widget.MediaGrid { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\res\layout\activity_media_preview.xml:22
+-keep class com.zhihu.matisse.internal.ui.widget.PreviewViewPager { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\res\layout\album_list_item.xml:21
+-keep class com.zhihu.matisse.internal.ui.widget.RoundedRectangleImageView { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\res\layout\photo_capture_item.xml:17
+-keep class com.zhihu.matisse.internal.ui.widget.SquareFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\Huar\.gradle\wrapper\dists\gradle-6.1.1-all\caches\transforms-2\files-2.1\77bffccc11ee28c293b99db55052bffd\jetified-matisse-0.5.2-beta4\res\layout\fragment_preview_item.xml:21
+-keep class it.sephiroth.android.library.imagezoom.ImageViewTouch { <init>(...); }
+
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\item_class_rv.xml:61
+# Referenced at D:\oppowear\ColorSchedule-\app\src\main\res\layout\widget_layout_item_draw.xml:61
+-keep class top.huar.schedule.ui.view.RoundBackChange { <init>(...); }
+
