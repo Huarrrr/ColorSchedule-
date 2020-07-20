@@ -6,6 +6,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.content.res.Configuration
 import android.util.Log
+import cn.bmob.v3.Bmob
 import com.tencent.bugly.crashreport.CrashReport
 import org.greenrobot.eventbus.EventBus
 import top.huar.schedule.AppActivityIndex
@@ -32,6 +33,7 @@ class App : Application() {
         val db = helper.writableDb
         daoSession = DaoMaster(db).newSession()
         sharedPreferences = getSharedPreferences(ConstantPool.Str.SHARED_PREFERENCES_FILENAME.get(), Context.MODE_PRIVATE)
+        Bmob.initialize(this,"2ad20bec9916af5ac6a332520efaf913")
         super.onCreate()
     }
 

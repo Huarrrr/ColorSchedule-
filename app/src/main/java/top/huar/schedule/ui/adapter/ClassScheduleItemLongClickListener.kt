@@ -35,6 +35,7 @@ import java.util.*
 class ClassScheduleItemLongClickListener
 constructor(@param:NonNull private val activity: Activity, private val classScheduleList: List<ClassSchedule>?, @param:NonNull private val copyList: MutableList<String>) : View.OnLongClickListener {
     private val classScheduleDao: ClassScheduleDao = (activity.application as App).daoSession.classScheduleDao
+
     @SuppressLint("InflateParams")
     private val inflate: View = LayoutInflater.from(activity).inflate(R.layout.dialog_class_schedule, null)
     private var selectClassSchedule: ClassSchedule? = null
@@ -269,13 +270,21 @@ constructor(@param:NonNull private val activity: Activity, private val classSche
             }
         }
         oddBtn.setOnClickListener {
+            for (i in 0 until totalWeek) {
+                val materialCheckBox = autoWrapLineLayout.getChildAt(i) as MaterialCheckBox
+                materialCheckBox.isChecked = false
+            }
             for (i in 0 until totalWeek step 2) {
                 val materialCheckBox = autoWrapLineLayout.getChildAt(i) as MaterialCheckBox
                 materialCheckBox.isChecked = true
             }
         }
         doubleBtn.setOnClickListener {
-            for (i in 1..totalWeek step 2) {
+            for (i in 0 until totalWeek) {
+                val materialCheckBox = autoWrapLineLayout.getChildAt(i) as MaterialCheckBox
+                materialCheckBox.isChecked = false
+            }
+            for (i in 1 until totalWeek step 2) {
                 val materialCheckBox = autoWrapLineLayout.getChildAt(i) as MaterialCheckBox
                 materialCheckBox.isChecked = true
             }
@@ -293,15 +302,17 @@ constructor(@param:NonNull private val activity: Activity, private val classSche
             }
         }
         rangeBtn.setOnClickListener {
-            var l = 0
-            var r = 0
+            var l = 1
+            var r = totalWeek
             val view = LayoutInflater.from(activity).inflate(R.layout.view_range, null)
             val seekBar = view.findViewById<RangeSeekBar>(R.id.seekBar)
             val tvFontPreview = view.findViewById<TextView>(R.id.tv_font_preview)
-            tvFontPreview.text = "拖动滑块设置课程周数"
+            tvFontPreview.text = "课程从第${l}周到第${r}周"
+            val tvTipPreview = view.findViewById<TextView>(R.id.tv_tip_preview)
+            tvTipPreview.text = "拖动滑块设置课程周数"
             seekBar.seekBarMode = RangeSeekBar.SEEKBAR_MODE_RANGE
-            seekBar.setRange(1f, 50f)
-            seekBar.setValue(12f, 37f)
+            seekBar.setRange(1f, totalWeek.toFloat())
+            seekBar.setValue(1f, totalWeek.toFloat())
             seekBar.setIndicatorTextDecimalFormat("0")
             seekBar.setOnRangeChangedListener(object : OnRangeChangedListener {
                 @Suppress("UsePropertyAccessSyntax")
@@ -320,11 +331,18 @@ constructor(@param:NonNull private val activity: Activity, private val classSche
                     .setTitle("设置课程周数区间")
                     .setPositiveButton("确定") { _, _ ->
                         if (l != 0 && r != 0) {
+                            for (i in 0 until totalWeek) {
+                                val materialCheckBox = autoWrapLineLayout.getChildAt(i) as MaterialCheckBox
+                                materialCheckBox.isChecked = false
+                            }
                             for (i in l..r) {
                                 val materialCheckBox = autoWrapLineLayout.getChildAt(i - 1) as MaterialCheckBox
                                 materialCheckBox.isChecked = true
                             }
                         }
+                    }
+                    .setNegativeButton("取消") { dialog, _ ->
+                        dialog.dismiss()
                     }
                     .show()
         }

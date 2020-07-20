@@ -44,6 +44,8 @@ allprojects {
             maven { url "https://maven.google.com" }
             maven { url 'https://dl.bintray.com/umsdk/release' }
         }
+        //Bmob的maven仓库地址，必须填写
+        maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }
     }
 }
 

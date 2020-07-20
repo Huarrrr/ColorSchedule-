@@ -2,6 +2,7 @@
     <string name="app_name">Color课表</string>
     <string name="navigation_drawer_open">打开导航抽屉</string>
     <string name="navigation_drawer_close">关闭导航抽屉</string>
+    <string name="action_share_to_wear">同步到OPPO手表</string>
     <string name="action_set_text_size">设置字体大小</string>
     <string name="login_name">欢迎使用</string>
     <string name="login_btn_share">导入数据</string>
@@ -40,7 +41,7 @@
     <string name="share_import_file">选择文件导入</string>
     <string name="share_export_title">导出课程数据</string>
     <string name="share_export_file">导出到文件</string>
-    <string name="share_export_share">分享课程数据</string>
+    <string name="share_export_share">导出到云端</string>
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">(╥﹏╥)\n发生了错误</string>
     <string name="customactivityoncrash_error_activity_restart_app">重新打开APP</string>
     <string name="customactivityoncrash_error_activity_close_app">关闭APP</string>

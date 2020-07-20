@@ -9,7 +9,9 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.annotation.Nullable
 import androidx.appcompat.app.AlertDialog
-import androidx.core.content.FileProvider
+import cn.bmob.v3.exception.BmobException
+import cn.bmob.v3.listener.QueryListener
+import cn.bmob.v3.listener.UpdateListener
 import com.google.gson.Gson
 import com.tencent.bugly.crashreport.CrashReport
 import kotlinx.android.synthetic.main.activity_share.*
@@ -20,11 +22,13 @@ import top.huar.schedule.R
 import top.huar.schedule.common.App
 import top.huar.schedule.common.BaseActivity
 import top.huar.schedule.common.ConstantPool
+import top.huar.schedule.entity.ClassData
 import top.huar.schedule.entity.DataEntity
 import top.huar.schedule.entity.EventEntity
 import top.huar.schedule.util.DateUtils
 import top.huar.schedule.util.ThemeChangeUtil
-import java.io.*
+import java.io.BufferedOutputStream
+import java.io.OutputStream
 import java.nio.charset.Charset
 import java.text.SimpleDateFormat
 import java.util.*
@@ -87,25 +91,36 @@ class ShareActivity : BaseActivity() {
         val gson = Gson()
         val bytes = gson.toJson(dataEntity).toByteArray()
         val s = String(bytes, Charset.forName("utf-8"))
-        val fileName = cacheDir.toString() + File.separator + "课表课程数据.json"
-        try {
-            FileOutputStream(fileName).use { fileOutputStream ->
-                fileOutputStream.write(bytes, 0, bytes.size)
-                fileOutputStream.flush()
+        val classData = ClassData()
+        classData.data = s
+        classData.update("270911c9b6", object: UpdateListener() {
+            override fun done(e: BmobException?) {
+                if (e == null) {
+                    Toast.makeText(this@ShareActivity, "备份数据成功", Toast.LENGTH_SHORT).show()
+                } else {
+                    Toast.makeText(this@ShareActivity,"备份数据失败：" + e.message,Toast.LENGTH_SHORT).show()
+                }
             }
-        } catch (e: IOException) {
-            Log.e(TAG, " ", e)
-            Toast.makeText(this, "生成数据失败", Toast.LENGTH_SHORT).show()
-            CrashReport.postCatchedException(e)
-        }
-
-        val uri = FileProvider.getUriForFile(this, "top.huar.schedule.fileProvider", File(fileName))
-        val share = Intent(Intent.ACTION_SEND)
-        share.putExtra(Intent.EXTRA_STREAM, uri)
-        share.type = "application/octet-stream"
-        share.flags = Intent.FLAG_ACTIVITY_NEW_TASK
-        share.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
-        startActivity(Intent.createChooser(share, "分享课程数据文件"))
+        })
+//        val fileName = cacheDir.toString() + File.separator + "课表课程数据.json"
+//        try {
+//            FileOutputStream(fileName).use { fileOutputStream ->
+//                fileOutputStream.write(bytes, 0, bytes.size)
+//                fileOutputStream.flush()
+//            }
+//        } catch (e: IOException) {
+//            Log.e(TAG, " ", e)
+//            Toast.makeText(this, "生成数据失败", Toast.LENGTH_SHORT).show()
+//            CrashReport.postCatchedException(e)
+//        }
+//
+//        val uri = FileProvider.getUriForFile(this, "top.huar.schedule.fileProvider", File(fileName))
+//        val share = Intent(Intent.ACTION_SEND)
+//        share.putExtra(Intent.EXTRA_STREAM, uri)
+//        share.type = "application/octet-stream"
+//        share.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+//        share.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+//        startActivity(Intent.createChooser(share, "分享课程数据文件"))
     }
 
     /**

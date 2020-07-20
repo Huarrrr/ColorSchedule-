@@ -20,6 +20,16 @@ android {
             }
         }
         resConfigs "zh", "en"
+
+        sourceSets {
+            main.jniLibs.srcDirs = ['libs']
+        }
+
+//        ndk {
+//            // 设置支持的SO库架构
+//            abiFilters 'armeabi' //, 'armeabi','x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+//        }
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -44,6 +54,9 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+    useLibrary 'org.apache.http.legacy'
+
+    repositories { flatDir { dirs 'libs' } }
     //别名: schedule
     //创建日期: 2020-6-10
     //条目类型: PrivateKeyEntry
@@ -67,7 +80,7 @@ dependencies {
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.preference:preference:1.1.1'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta7'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta8'
     /*https://github.com/google/gson*/
     implementation 'com.google.code.gson:gson:2.8.5'
     /*https://github.com/greenrobot/EventBus*/
@@ -105,6 +118,18 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    implementation fileTree(dir: "${rootDir}\\libs", include: ['*.aar'])
+    implementation  'com.android.support:multidex:1.0.3'
+
+//    implementation fileTree(dir: "${rootDir}\\libs", include: ['*.aar'])
+    //Bmob后端云
+    implementation(name: 'WearSDK-v0.0.9', ext: 'aar')
+////    implementation 'cn.bmob.android:bmob-sdk:3.7.8'
+//    implementation "io.reactivex.rxjava2:rxjava:2.2.8"
+//    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.14.4'
+//    implementation 'com.squareup.okio:okio:2.2.2'
+//    implementation 'com.google.code.gson:gson:2.8.5'
+//    implementation(name: 'bmob-sdk-3.7.3-rc1', ext: 'aar')
+    implementation "org.reactivestreams:reactive-streams:1.0.2"
 
 }

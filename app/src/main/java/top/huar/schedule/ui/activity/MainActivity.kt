@@ -31,9 +31,13 @@ import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import androidx.preference.PreferenceManager
+import cn.bmob.v3.exception.BmobException
+import cn.bmob.v3.listener.UpdateListener
 import com.getkeepsafe.taptargetview.TapTarget
 import com.getkeepsafe.taptargetview.TapTargetView
 import com.google.android.material.navigation.NavigationView
+import com.google.gson.Gson
+import com.heytap.wearable.oms.*
 import com.jaygoo.widget.OnRangeChangedListener
 import com.jaygoo.widget.RangeSeekBar
 import com.tencent.bugly.crashreport.CrashReport
@@ -49,6 +53,8 @@ import top.huar.schedule.R
 import top.huar.schedule.common.App
 import top.huar.schedule.common.BaseActivity
 import top.huar.schedule.common.ConstantPool
+import top.huar.schedule.entity.ClassData
+import top.huar.schedule.entity.DataEntity
 import top.huar.schedule.entity.EventEntity
 import top.huar.schedule.ui.fragment.CheckScoreFragment
 import top.huar.schedule.ui.fragment.ClassScheduleFragment
@@ -57,6 +63,7 @@ import top.huar.schedule.util.DateUtils
 import top.huar.schedule.util.FileUtils
 import top.huar.schedule.util.Glide4Engine
 import top.huar.schedule.util.ThemeChangeUtil
+import java.nio.charset.Charset
 import java.text.MessageFormat
 import java.text.SimpleDateFormat
 import java.util.*
@@ -70,6 +77,22 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
     private var firstPressedTime: Long = 0
     private lateinit var drawerSwitch: SwitchCompat
     private var tempNumberOfWeek = "1"
+
+
+    /** 节点管理器  */
+    private var nodeClient: NodeClient? = null
+
+    /** 信息管理器  */
+    private var messageClient: MessageClient? = null
+
+    /** 点前连接的节点  */
+    private var node: Node? = null
+
+    /** 节点监听器  */
+    private var onNodeChangedListener: NodeClient.OnNodeChangedListener? = null
+
+    /** 信息监听器  */
+    private var onMessageReceivedListener: MessageClient.OnMessageReceivedListener? = null
 
     /**
      * fragment 是否消费返回事件
@@ -91,6 +114,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         EventBus.getDefault().register(this)
         initData()
         initView()
+        initWearable()
         newUserStudy()
     }
 
@@ -272,6 +296,41 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         }
     }
 
+    private fun initWearable() {
+        nodeClient = Wearable.getNodeClient(this)
+        messageClient = Wearable.getMessageClient(this)
+
+//        //通过阻塞方式取得回调结果，此方法不能在主线程调用
+//        Thread(Runnable {
+//            val nodeResult: NodeClient.NodeResult = nodeClient!!.node.await()
+//            if (nodeResult.status.isSuccess) {
+//                Log.e("eeeeeeeeeee","000000000000000")
+//                this@MainActivity.node = nodeResult.node
+//            }
+//        }).start()
+
+
+
+        //设置节点监听器
+        onNodeChangedListener = object : NodeClient.OnNodeChangedListener {
+            override fun onPeerConnected(node: Node) {
+                Toast.makeText(this@MainActivity,"rrr",Toast.LENGTH_SHORT).show()
+                this@MainActivity.node = node
+            }
+
+            override fun onPeerDisconnected(node: Node) {
+                this@MainActivity.node = null
+            }
+        }
+        nodeClient!!.addListener(onNodeChangedListener)
+
+        //设置信息监听器
+        onMessageReceivedListener = MessageClient.OnMessageReceivedListener { messageEvent: MessageEvent ->
+            val data = messageEvent.data
+        }
+        messageClient!!.addListener(onMessageReceivedListener)
+    }
+
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.main, menu)
         menu.findItem(R.id.action_show_teacher_info).title = if (App.sharedPreferences.getBoolean(ConstantPool.Str.TEACHER_INFO_STATUS.get(), false))
@@ -284,6 +343,35 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         //菜单回调
         when (item.itemId) {
+            R.id.action_share_to_wear -> {
+                val dataEntity = DataEntity(application as App)
+                val gson = Gson()
+                val bytes = gson.toJson(dataEntity).toByteArray()
+                val s = String(bytes, Charset.forName("utf-8"))
+                val classData = ClassData()
+                classData.data = s
+                classData.update("270911c9b6", object: UpdateListener() {
+                    override fun done(e: BmobException?) {
+                        if (e == null) {
+                            Toast.makeText(this@MainActivity, "已同步到云端", Toast.LENGTH_SHORT).show()
+                        } else {
+                            Toast.makeText(this@MainActivity,"备份数据失败：" + e.message,Toast.LENGTH_SHORT).show()
+                        }
+                    }
+                })
+                if (node != null) {
+                    val path: String = "pathTextView.getText().toString()"
+
+                    //发送信息
+                    messageClient!!.sendMessage(node!!.id, path, bytes).setResultCallback { result: MessageClient.SendMessageResult ->
+                        result.status
+                    }
+                } else {
+
+                }
+                return true
+            }
+
             R.id.action_set_text_size -> {
                 changeWeekFragmentFont()
                 return true

@@ -404,7 +404,7 @@ class CourseInfoService : Service(), SharedPreferences.OnSharedPreferenceChangeL
                 .setContentText(textBuilder)
                 .setVisibility(NotificationCompat.VISIBILITY_SECRET)
                 .setSmallIcon(R.drawable.notification_icon)
-                .setLargeIcon(BitmapFactory.decodeResource(resources, R.mipmap.logo_img))
+                .setLargeIcon(BitmapFactory.decodeResource(resources, R.mipmap.icon_class))
                 .setDefaults(Notification.DEFAULT_LIGHTS)
                 .setAutoCancel(true)
                 .setContentIntent(pendingIntent)
